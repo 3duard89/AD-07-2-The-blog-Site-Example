@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.SobreNosotros {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.SobreNosotros h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.SobreNosotros p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.SobreNosotros {
+    float: left;
+    margin: 20px;
+}
+
+.imagen {
+    float: right;
+}
