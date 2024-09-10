@@ -1,19 +1,12 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 100px;
+  margin: 0px 20px;
 }
 
 .header__navigation {
   display: flex;
   align-items: center;
-}
-
-.header__navigation img {
-  width: 100px; 
-  height: auto; 
-  margin-right: 20px; 
-  vertical-align: middle; 
 }
 
 nav ul { 
@@ -31,6 +24,16 @@ nav ul a {
   display: flex;
   align-items: center;
   gap: 70px;
+}
+
+.header__settings div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #454868;
+
 }
 .header__settings button {
   background-color: #1ae4bf;

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(74, 92, 86); 
+    color: white;
+}
+
+.content {
+    width: 400px;
+}
+
+.contacta span{
+    color: #d63031;
+}
+
+.contenedor {
+    box-shadow: 0 0 50px 0 black;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formulario form button {
+    background: #d63031;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.formulario form button:hover,
+.formulario form button:focus {
+    background: red;
+    color: white;
+    transition: background-color 2s ease-out;
+    cursor: pointer;
+}
+
+.info li {
+    text-align: left;
+    list-style: none;
+}
+
+table {
+ border-spacing: 15px;   
+}
+
+#pchachara {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
