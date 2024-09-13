@@ -1,10 +1,11 @@
 #footer {
-    background-color: #fff;
-    padding: 600px 900;
-  
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
 }
 
 .footer__info {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -31,8 +32,10 @@
 .footer__info input[type="email"] {
     padding: 10px;
     margin-bottom: 10px;
-    border: none;
+    border: 1px solid #333;
     border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
     outline: none;
 }
 
@@ -50,6 +53,10 @@
     background-color: #c2185b;
 }
 
+.button--pink:active {
+    background-color: #c2185b;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -61,16 +68,17 @@ table th, table td {
 }
 
 table th {
-    background-color: #444;
-    color: #fff;
+    background-color: #333;
+    color: #e0e0e0;
 }
 
 table td {
     border-bottom: 1px solid #555;
+    color: #e0e0e0;
 }
 
 table a {
-    color: #e91e63;
+    color: #1ae4bf;
     text-decoration: none;
 }
 
